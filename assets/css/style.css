@@ -1,0 +1,90 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+}
+
+/*Carousel */
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 0px;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: white;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: white;
+}
+
+/* CARDS QUE DESAPARE EL TEXTO*/
+.cards {
+    background: #000000;
+    padding: 40px;
+    color: #ffffff;
+    text-align: center;
+  }
+
+.card {
+  border: 0px;
+}
+
+.card-header, .card-footer {
+  background: #0dcaf0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* DESTACADOS */
+.destacados {
+  background: #000000;
+  color: white;
+}
+
+hr {
+  border-top: 2px solid #373a3c;
+}
+
+.foto-texto {
+  background: #0dcaf0;
+  border: #ffffff solid 1px;
+}
+
+/* CONTACTO */
+.contacto {
+  background: #000000;
+  color: #ffffff;
+}
+
+#exampleInputMensaje1 {
+  height: 13rem;
+}
+
+.enviar {
+  background: #0dcaf0;
+}
+
+/*FOOTER */
+
+footer {
+  background: #0dcaf0;
+  font-size: 1rem;
+}
+
+footer a {
+  color: white;
+  margin: 0.4rem;
+}
